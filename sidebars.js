@@ -54,13 +54,13 @@ module.exports = {
                   type: "link",
                   label: "Zeabur 一键部署",
                   href: "https://zeabur.com/docs/zh-CN/marketplace/halo",
-                  description: "在 Zeabur 一键部署 Halo 服务"
+                  description: "在 Zeabur 一键部署 Halo 服务",
                 },
                 {
                   type: "link",
                   label: "Rainbond 一键部署",
                   href: "https://hub.grapps.cn/marketplace/apps/1255",
-                  description: "在 Rainbond 一键部署 Halo 服务"
+                  description: "在 Rainbond 一键部署 Halo 服务",
                 },
               ],
             },
@@ -144,7 +144,6 @@ module.exports = {
         "developer-guide/plugin/introduction",
         "developer-guide/plugin/prepare",
         "developer-guide/plugin/hello-world",
-        "developer-guide/plugin/publish",
         {
           type: "category",
           label: "基础",
@@ -175,6 +174,7 @@ module.exports = {
               items: [
                 "developer-guide/plugin/basics/ui/intro",
                 "developer-guide/plugin/basics/ui/entry",
+                "developer-guide/plugin/basics/ui/build",
               ],
             },
           ],
@@ -287,6 +287,7 @@ module.exports = {
                 "developer-guide/plugin/extension-points/ui/plugin-installation-tabs-create",
                 "developer-guide/plugin/extension-points/ui/theme-list-tabs-create",
                 "developer-guide/plugin/extension-points/ui/post-list-item-operation-create",
+                "developer-guide/plugin/extension-points/ui/single-page-list-item-operation-create",
                 "developer-guide/plugin/extension-points/ui/comment-list-item-operation-create",
                 "developer-guide/plugin/extension-points/ui/reply-list-item-operation-create",
                 "developer-guide/plugin/extension-points/ui/plugin-list-item-operation-create",
@@ -295,8 +296,10 @@ module.exports = {
                 "developer-guide/plugin/extension-points/ui/theme-list-item-operation-create",
                 "developer-guide/plugin/extension-points/ui/plugin-list-item-field-create",
                 "developer-guide/plugin/extension-points/ui/post-list-item-field-create",
+                "developer-guide/plugin/extension-points/ui/single-page-list-item-field-create",
                 "developer-guide/plugin/extension-points/ui/user-detail-tabs-create",
                 "developer-guide/plugin/extension-points/ui/uc-user-profile-tabs-create",
+                "developer-guide/plugin/extension-points/ui/dashboard-widgets",
               ],
             },
           ],
@@ -411,5 +414,13 @@ module.exports = {
     },
     "developer-guide/form-schema",
     "developer-guide/annotations-form",
+    {
+      type: "category",
+      label: "附录",
+      link: {
+        type: "generated-index",
+      },
+      items: ["developer-guide/appendix/publish-app"],
+    },
   ],
 };
